@@ -1,0 +1,46 @@
+$link-size: 25px;
+$darkred: #bf544b;
+$lightblue: #7edde1;
+$darkblue: #0597f2;
+$lightgreen: #88bb28;
+$tan: #dac48f;
+$orange: #cc6806;
+
+*{
+	text-decoration:none;
+}
+
+ a {
+    font-family: "source-sans-pro",sans-serif;
+font-style: normal;
+font-weight: 700;
+    font-size:1.3rem;
+    color:black;
+
+}
+
+p{
+	color:#787878;
+font-family: "droid-sans",sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height:1.5;
+}
+
+h1,h2,h3{
+		   font-family: "source-sans-pro",sans-serif;
+font-style: normal;
+
+
+}
+h2{
+	color:#2E3031;
+	font-size:1.35rem;
+
+}
+
+
+h3{
+ font-size:24px;
+}
+
