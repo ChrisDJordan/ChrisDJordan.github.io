@@ -87,18 +87,18 @@
         a {
             color: white;
         }
-    }
-    .js .nav-collapse {
-        position: relative;
-        clear: none;
-    }
-    .js .nav-collapse.closed {
-        max-height: none;
-    }
-    .nav-toggle {
-        display: none;
-    }
-    .nav-collapse.opened {
-        padding: 0;
+        .js .nav-collapse {
+            position: relative;
+            clear: none;
+        }
+        .js .nav-collapse.closed {
+            max-height: none;
+        }
+        .nav-toggle {
+            display: none;
+        }
+        .nav-collapse.opened {
+            padding: 0;
+        }
     }
 }
