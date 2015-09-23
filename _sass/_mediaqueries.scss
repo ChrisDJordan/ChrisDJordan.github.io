@@ -1,5 +1,4 @@
 @media screen and (min-width: 480px) {
-
     header {
         background: red;
     }
@@ -29,6 +28,19 @@
         padding-right: 4%;
         &:nth-child(even) {
             padding-right: 0;
+        }
+    }
+      .portfolio {
+        .port-img {
+            h3 {
+                padding-bottom: 5px;
+            }
+            p {
+                padding-bottom: 60px;
+            }
+        }
+        #pad-none {
+            padding-bottom: 60px;
         }
     }
 }
@@ -79,5 +91,5 @@
             font-size: 34px;
         }
     }
+  
 }
-

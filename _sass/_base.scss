@@ -89,7 +89,7 @@ header {
 ===================================*/
 
 .portfolio {
-    padding: 60px 0 45px 0;
+    padding: 60px 0 60px 0;
     border-top: 2px solid #efefef;
     h3 {
         padding-bottom: 20px;
@@ -125,13 +125,37 @@ header {
     }
 }
 
-.port-img {
-    h3 {
-        padding-bottom: 5px;
+.portfolio {
+    .port-img {
+        h3 {
+            padding-bottom: 5px;
+        }
+        p {
+            padding-bottom: 60px;
+        }
     }
-    p {
-        padding-bottom: 60px;
+    #pad-none{
+        padding-bottom:0;
     }
+
+}
+
+.red{
+    
+
+
+
+}
+
+
+
+
+
+/* Blog Section
+===================================*/
+.blog {
+    padding: 60px 0 60px 0;
+    border-top: 2px solid #efefef;
 }
 
 @import "mixin";
