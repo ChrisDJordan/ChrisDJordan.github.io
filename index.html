@@ -39,23 +39,23 @@ layout: default
     <div class="hover column">
       <div class="port-img col-sm-6 ">
       <figure ><img src="images/quest2.jpg" /></figure>
-      <h3>Quest ATX</h3>
+      <h4>Quest ATX</h4>
       <p>RWD,Bootstrap</p>
     </div>
     <div class="port-img col-sm-6 ">
     <figure ><img src="images/bouldin.jpg" /></figure>
-    <h3>Bouldin Creek Cafe</h3>
+    <h4>Bouldin Creek Cafe</h4>
     <p>RWD,Bootstrap</p>
   </div>
   <div class="port-img col-sm-6 ">
   <figure ><img src="images/zengarden.jpg" /></figure>
-  <h3>CSS Zen Garden</h3>
+  <h4>CSS Zen Garden</h4>
   <p>RWD,Bootstrap</p>
 </div>
 
 <div class="port-img col-sm-6 ">
 <figure ><img src="images/quest2.jpg" /></figure>
-<h3>Quest ATX</h3>
+<h4>Quest ATX</h4>
 <p id="pad-none">RWD,Bootstrap</p>
 </div>
 </div>
@@ -65,7 +65,8 @@ layout: default
 
 </section>
 
-<section class="blog col-sm-6">
+<section class="blog">
+<h3>Blog</h3>
 <!-- <ul class="post-list col-sm-5">
 {% for post in site.posts %}
 <li>
@@ -77,13 +78,13 @@ layout: default
 {% endfor %}
 </ul>
  -->
- <div class="red" >
+ <div class="col-sm-5">
 <ul >
-<div>
+<div >
     {% for post in site.posts limit 4 %}
-    <li ><span>{{ date_to_string }}</span>  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ date_to_string }}</span>  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
         {{ post.content  | truncatewords:45}}<br>
-            <a class="col-sm-5"href="{{ post.url }}">Read more...</a><br><br>
+         <!--    <ahref="{{ post.url }}">Read more...</a><br><br> -->
     {% endfor %}
     </div>
 </ul>
