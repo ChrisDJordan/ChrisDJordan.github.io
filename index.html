@@ -2,15 +2,7 @@
 layout: default
 
 ---
-<div class="hello">
-  <div class="hero-background col-md-4">
-    <div class="hero-container">
-      
-      <h1>CHRIS JORDAN</h1>
-      <h2>WEB / UI DESIGNER</h2>
-    </div>
-  </div>
-</div>
+
 <div class="container col-md-7">
 
 
@@ -19,7 +11,7 @@ layout: default
 
 
   <section class="about-section ">
-    <h2>Web Design isn't a job<br />it's an Adventure.</h2>
+    <h2>Web Design isn’t a job<br />it’s an Adventure.</h2>
     <p>I’m Chris, a Web/UI Designer in Austin, Texas. This will say something really freaking cool in the future, so just wait and see. I'm not kidding! It will be great! Okay...maybe just okay. I like kittes, I make websites... goodbye.</p>
     <p>
       <a class="about-btn" href ="#">LEARN MORE</a>
@@ -66,7 +58,7 @@ layout: default
 </section>
 
 <section class="blog">
-<h3>Blog</h3>
+<h3><a href="blog.html">Blog</a></h3>
 <!-- <ul class="post-list col-sm-5">
 {% for post in site.posts %}
 <li>
@@ -78,17 +70,29 @@ layout: default
 {% endfor %}
 </ul>
  -->
- <div class="col-sm-5">
-<ul >
-<div >
-    {% for post in site.posts limit 4 %}
-    <li><span>{{ date_to_string }}</span>  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-        {{ post.content  | truncatewords:45}}<br>
-         <!--    <ahref="{{ post.url }}">Read more...</a><br><br> -->
+
+<div class=" entries ">
+
+
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="preview">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p> {{  truncatewords:75}} </p>
+      </li>
     {% endfor %}
-    </div>
-</ul>
+  </ul>
+
+ 
+
+
+      
 </div>
+
 
 
 </section>
