@@ -74,10 +74,22 @@
         float: right;
         position: fixed;
     }
+
+
     .hero-container {
-        h1, h2 {
+        li{
+            display:block;
+            padding-bottom:10px;
+
+           
+            a{
+               color:white;  
+            }
+        }
+        h1, h2,li {
             text-align: right;
             padding-right: 10%;
+
         }
         img {
             padding-top: 100px;
@@ -91,6 +103,7 @@
         }
         h2 {
             font-size: 34px;
+            padding-bottom:50px;
         }
     }
   
