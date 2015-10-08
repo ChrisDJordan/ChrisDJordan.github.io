@@ -13,18 +13,17 @@ body {
     margin: 0 auto;
 }
 
- .btn {
-        color: #2E3031;
-        display: block;
-        background: #f9d76d;
-        box-shadow: inset 0 -2px rgba(0, 0, 0, 0.1);
-        padding: 10px;
-        margin: 0 auto;
-        text-align: center;
-        border-radius: 4px;
-        margin-top:15px;
-    }
-
+.btn {
+    color: #2E3031;
+    display: block;
+    background: #f9d76d;
+    box-shadow: inset 0 -2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 15px;
+}
 
 /* Header Section
 ===================================*/
@@ -42,6 +41,7 @@ header {
         overflow: hidden;
     }
 }
+
 
 /* Hero-img Section
 ===================================*/
@@ -77,12 +77,18 @@ header {
         color: white;
         text-align: center;
     }
-    li{
-       display:none;
+    li {
+        display: none;
     }
+
 }
-
-
+    .logo{
+    background:url(../images/logo.svg);
+    height:35px;
+    width:35px;
+    display:inline-block;
+    margin:0 auto;
+}
 /* About Section
 ===================================*/
 .about-section {
@@ -92,11 +98,8 @@ header {
         font-size: 30px;
         line-height: 1.1;
     }
-    
-  
 }
 
- 
 /* Portfolio Section
 ===================================*/
 
@@ -146,85 +149,64 @@ header {
             padding-bottom: 60px;
         }
     }
-   
-
 }
-
-
-
-
-
-
 
 /* Blog Section
 ===================================*/
 .blog {
-float:left;
+    float: left;
     // background:orange;
-  
     padding: 60px 0 60px 0;
     border-top: 2px solid #efefef;
-      width:100%;
-    h3{
-        padding-bottom:20px;
-     
+    width: 100%;
+    h3 {
+        padding-bottom: 20px;
     }
-
-   
 }
-
-
-
 
 .entries {
     // background:red;
-    overflow:hidden;
-    width:100%;
-
-  float:left;
-
-
-.preview {
-    // background:green;
-    width: 48%;
-    display: block;
-    float:left;
-    clear:right;
-    overflow:hidden;
-    margin:0 4% 60px 0;
-
-    &:nth-child(even){
-        margin-right:0%;
-        // background:yellow;
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    .preview {
+        // background:green;
+        width: 48%;
+        display: block;
+        float: left;
+        clear: right;
+        overflow: hidden;
+        margin: 0 4% 60px 0;
+        &:nth-child(even) {
+            margin-right: 0%;
+            // background:yellow;
+       
+        }
     }
-}
-
-    
-
     h2 a {
-        
-        display:block;
+        display: block;
         // font-weight: bold;
         // text-transform: uppercase;
         margin-bottom: 5px;
-      
-
     }
     h2 a:hover {
-        color: pink;
+        color: #f9d76d;
     }
     .post-meta {
-    
         line-height: 1.6;
     }
     p {
         color: black;
         margin-bottom: 30px;
-        
     }
 }
 
 
+
+
+.post-content{
+    color:green;
+}
 @import "mixin";
 @import "mediaqueries";
 

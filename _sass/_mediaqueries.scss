@@ -8,7 +8,7 @@
             font-size: 40px;
         }
         p {
-            max-width: 650px;
+          
             line-height: 1.6;
         }
     }
@@ -79,11 +79,12 @@
     .hero-container {
         li{
             display:block;
-            padding-bottom:10px;
+            padding-bottom:15px;
 
            
             a{
-               color:white;  
+               color:white; 
+               font-size:17px; 
             }
         }
         h1, h2,li {
