@@ -3,19 +3,17 @@
         background: red;
     }
     .about-section {
-       
         h2 {
-            font-size: 40px;
+            font-size: 30px;
         }
         p {
-          
             line-height: 1.6;
         }
     }
-     .btn {
-            display: inline-block;
-            padding: 10px 15px 10px 15px;
-        }
+    .btn {
+        display: inline-block;
+        padding: 10px 15px 10px 15px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -31,19 +29,17 @@
             padding-right: 0;
         }
     }
-      .portfolio {
+    .portfolio {
         .port-img {
             h3 {
                 padding-bottom: 5px;
             }
-            p{
-               .pad-none{
-                padding-bottom:0;
-               }
+            p {
+                .pad-none {
+                    padding-bottom: 0;
+                }
             }
-            
         }
-        
     }
 }
 
@@ -74,38 +70,31 @@
         float: right;
         position: fixed;
     }
-
-
     .hero-container {
-        li{
-            display:block;
-            padding-bottom:15px;
-
-           
-            a{
-               color:white; 
-               font-size:17px; 
-            }
-        }
-        h1, h2,li {
+        h1, h2, li {
             text-align: right;
             padding-right: 10%;
-
         }
-        img {
-            padding-top: 100px;
-            position: relative;
-            margin: 0;
-            right: 0;
+        .logo {
+            padding-top: 45px;
+                 h1 {
+              
+                font-size: 44px;
+                text-align: right;
+            }
+            h2 {
+                font-size: 34px;
+                padding-bottom: 50px;
+                text-align: right;
+            }
         }
-        h1 {
-            padding-top: 150px;
-            font-size: 44px;
-        }
-        h2 {
-            font-size: 34px;
-            padding-bottom:50px;
+        li {
+            display: block;
+            padding-bottom: 15px;
+            a {
+                color: white;
+                font-size: 17px;
+            }
         }
     }
-  
 }
