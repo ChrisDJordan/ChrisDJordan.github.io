@@ -4,6 +4,7 @@
     }
     .about-section {
         h2 {
+            font-size: 1.875rem;
             font-size: 30px;
         }
         p {
@@ -29,18 +30,10 @@
             padding-right: 0;
         }
     }
-    .portfolio {
-        .port-img {
-            h3 {
-                padding-bottom: 5px;
-            }
-            p {
-                .pad-none {
-                    padding-bottom: 0;
-                }
-            }
-        }
-    }
+    // #pad-none-big {
+    //     padding-bottom: 0px;
+      
+    // }
 }
 
 @media screen and (min-width: 992px) {
@@ -76,27 +69,23 @@
             padding-right: 10%;
         }
         .logo {
-            padding-top: 45px;
-
+            padding-top: 60px;
             h1 {
-                position:relative;
+                position: relative;
                 font-size: 48px;
                 text-align: right;
-                &:before{
-                     background:url(../images/logo.svg);
-                     background-repeat:no-repeat;
-                    width:570px;
-                 
-                 
-                    content:"";
-                      padding: 0 20px 0 50px ;
-                 position:relative;
-                 top:20px;
+                &:before {
+                    background: url(../images/logo.svg);
+                    background-repeat: no-repeat;
+                    width: 570px;
+                    content: "";
+                    padding: 0 25px 0 50px;
+                    position: relative;
+                    top: 20px;
                 }
-               
             }
-
             h2 {
+                font-size: 2.250rem;
                 font-size: 36px;
                 padding-bottom: 50px;
                 text-align: right;
@@ -107,6 +96,7 @@
             padding-bottom: 15px;
             a {
                 color: white;
+                font-size: 1.063rem;
                 font-size: 17px;
             }
         }
