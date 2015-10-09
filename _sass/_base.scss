@@ -22,6 +22,7 @@ body {
     margin: 0 auto;
     text-align: center;
     border-radius: 4px;
+    overflow:hidden;
 
 }
 
@@ -159,7 +160,7 @@ li {
 ===================================*/
 .blog {
     float: left;
-    padding: 60px 0  32px 0;
+    padding: 60px 0  60px 0;
     border-top: 2px solid #efefef;
     width: 100%;
     h3 {
