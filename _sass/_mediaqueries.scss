@@ -77,13 +77,27 @@
         }
         .logo {
             padding-top: 45px;
-                 h1 {
-              
-                font-size: 44px;
+
+            h1 {
+                position:relative;
+                font-size: 48px;
                 text-align: right;
+                &:before{
+                     background:url(../images/logo.svg);
+                     background-repeat:no-repeat;
+                    width:570px;
+                 
+                 
+                    content:"";
+                      padding: 0 20px 0 50px ;
+                 position:relative;
+                 top:20px;
+                }
+               
             }
+
             h2 {
-                font-size: 34px;
+                font-size: 36px;
                 padding-bottom: 50px;
                 text-align: right;
             }

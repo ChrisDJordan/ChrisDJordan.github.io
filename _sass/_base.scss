@@ -6,6 +6,7 @@
 
 body {
     background: #fff;
+
 }
 
 .container {
@@ -60,24 +61,26 @@ header {
 
 .hero-container {
     // background:green;
-    .logo{
-        padding-top:100px;
-    h1 {
-        font-weight: 700;
-        font-size: 34px;
-        color: black;
-        color: white;
-        text-align: center;
-
+    .logo {
+        padding-top: 100px;
+        img{
+            display:none;
+        }
+        h1 {
+            font-weight: 700;
+            font-size: 34px;
+            color: black;
+            color: white;
+            text-align: center;
+        }
+        h2 {
+            font-weight: 300;
+            font-size: 24px;
+            color: black;
+            color: white;
+            text-align: center;
+        }
     }
-    h2 {
-        font-weight: 300;
-        font-size: 24px;
-        color: black;
-        color: white;
-        text-align: center;
-    }
-}
 }
 
 li {
