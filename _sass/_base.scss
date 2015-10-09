@@ -152,19 +152,14 @@ li {
             padding-bottom: 28px;
         }
     }
-    .pad-none {
-        p {
-            padding-bottom: 0;
-        }
-    }
+  
 }
 
 /* Blog Section
 ===================================*/
 .blog {
     float: left;
-    // background:orange;
-    padding: 60px 0 60px 0;
+    padding: 60px 0  32px 0;
     border-top: 2px solid #efefef;
     width: 100%;
     h3 {
@@ -177,14 +172,15 @@ li {
     overflow: hidden;
     width: 100%;
     float: left;
+
     .preview {
         // background:green;
-        width: 48%;
+        width: 100%;
         display: block;
         float: left;
         clear: right;
         overflow: hidden;
-        margin: 0 4% 60px 0;
+        margin: 0 4% 28px 0;
         &:nth-child(even) {
             margin-right: 0%;
             // background:yellow;
@@ -205,13 +201,33 @@ li {
     }
     p {
         color: black;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
+
+       
     }
 }
 
 .post-content {
     color: green;
 }
+
+
+/* Contact Section
+===================================*/
+
+.contact{
+        padding: 60px 0 60px 0;
+       border-top: 2px solid #efefef;
+      display:block;
+       float:left;
+       width:100%;
+
+
+
+}
+
+
+
 
 @import "mixin";
 @import "mediaqueries";

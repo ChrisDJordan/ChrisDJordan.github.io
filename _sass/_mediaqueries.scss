@@ -15,15 +15,24 @@
         display: inline-block;
         padding: 10px 15px 10px 15px;
     }
+    .entries {
+   
+        .preview {
+            // background:green;
+            width: 48%;
+          
+        
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
     header {
         background: green;
     }
-    .container {
-        width: 85%;
-    }
+    // .container {
+    //     width: 85%;
+    // }
     .port-img {
         padding-right: 4%;
         &:nth-child(even) {
@@ -32,7 +41,6 @@
     }
     // #pad-none-big {
     //     padding-bottom: 0px;
-      
     // }
 }
 
@@ -54,9 +62,6 @@
     // .port-img{
     //     padding-right:0;
     // }
-}
-
-@media screen and (min-width: 1200px) {
     header {
         display: none;
         background: #2E3032;
@@ -72,6 +77,43 @@
             padding-top: 60px;
             h1 {
                 position: relative;
+                font-size: 34px;
+                text-align: right;
+                &:before {
+                    background: url(../images/logo.svg);
+                    background-repeat: no-repeat;
+                    width: 570px;
+                    content: "";
+                    padding: 0 0px 0 50px;
+                    position: relative;
+                    top: 15px;
+                }
+            }
+            h2 {
+                font-size: 24px;
+                padding-bottom: 50px;
+                text-align: right;
+            }
+        }
+        li {
+            display: block;
+            padding-bottom: 15px;
+            a {
+                color: white;
+                font-size: 1.063rem;
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hero-container {
+        .logo {
+            padding-top: 60px;
+            h1 {
+                position: relative;
+                font-size: 3rem;
                 font-size: 48px;
                 text-align: right;
                 &:before {
@@ -89,15 +131,6 @@
                 font-size: 36px;
                 padding-bottom: 50px;
                 text-align: right;
-            }
-        }
-        li {
-            display: block;
-            padding-bottom: 15px;
-            a {
-                color: white;
-                font-size: 1.063rem;
-                font-size: 17px;
             }
         }
     }
