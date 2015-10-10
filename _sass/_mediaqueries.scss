@@ -1,7 +1,21 @@
 @media screen and (min-width: 480px) {
     header {
-        background: red;
+        // background: red;
+   
     }
+
+        .hero-container {
+        .logo {
+            h1 {
+                font-size: 44px;
+            }
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+
+    
     .about-section {
         h2 {
             font-size: 1.875rem;
@@ -19,13 +33,20 @@
         .preview {
             // background:green;
             width: 48%;
+            &:nth-child(odd) {
+                margin-bottom: 28px;
+            }
         }
+    }
+    #pad-none-big {
+        padding-bottom: 28px;
     }
 }
 
 @media screen and (min-width: 768px) {
     header {
-        background: green;
+        // background: green;
+   
     }
     // .container {
     //     width: 85%;
@@ -36,14 +57,12 @@
             padding-right: 0;
         }
     }
-    // #pad-none-big {
-    //     padding-bottom: 0px;
-    // }
+
 }
 
 @media screen and (min-width: 992px) {
     header {
-        background: purple;
+        // background: purple;
         display: none;
     }
     .hero-background {
@@ -71,7 +90,7 @@
             padding-right: 10%;
         }
         .logo {
-            padding-top: 60px;
+            padding-top: 80px;
             h1 {
                 position: relative;
                 font-size: 34px;
@@ -107,7 +126,6 @@
 @media screen and (min-width: 1400px) {
     .hero-container {
         .logo {
-            padding-top: 60px;
             h1 {
                 position: relative;
                 font-size: 3rem;
@@ -126,7 +144,6 @@
             h2 {
                 font-size: 2.250rem;
                 font-size: 36px;
-                padding-bottom: 50px;
                 text-align: right;
             }
         }
