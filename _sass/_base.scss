@@ -22,7 +22,9 @@ body {
     margin: 0 auto;
     text-align: center;
     border-radius: 4px;
-    overflow: hidden;
+overflow:hidden;
+clear:both;
+
 }
 
 section {
@@ -166,6 +168,7 @@ li {
     float: left;
     border-top: 2px solid #efefef;
     width: 100%;
+
     h3 {
         padding-bottom: 20px;
     }
