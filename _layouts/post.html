@@ -42,12 +42,20 @@ layout: default
 </div>
 </div>
 
+
+
+
+
+
+
+
 <div class="container">
+<section>
     <div class="post">
 
 
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <h3 class="post-title">{{ page.title }}</h3>
+    <p class="post-meta meta-style">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
 
   <article class="post-content">
@@ -55,4 +63,5 @@ layout: default
   </article>
 
 </div>
+</section>
 </div>
