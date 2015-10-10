@@ -3,19 +3,16 @@
         // background: red;
    
     }
-
-        .hero-container {
+    .hero-container {
         .logo {
             h1 {
                 font-size: 44px;
             }
-            h2{
+            h2 {
                 font-size: 30px;
             }
         }
     }
-
-    
     .about-section {
         h2 {
             font-size: 1.875rem;
@@ -57,7 +54,6 @@
             padding-right: 0;
         }
     }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -120,6 +116,10 @@
                 font-size: 17px;
             }
         }
+    }
+    .post-hey {
+        max-width: 550px;
+        margin: 0;
     }
 }
 

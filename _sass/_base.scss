@@ -5,7 +5,7 @@
 ===================================*/
 
 body {
-    background: red;
+    background: #fff;
 }
 
 .container {
@@ -219,9 +219,12 @@ li {
 // }
 // }
 
-.post-list{
+.post-hey{
+    max-width:550px;
+
+    margin:0 auto;
     
-    background:red;
+   
 }
 
 .blog-center {
