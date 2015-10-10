@@ -4,10 +4,10 @@ layout: default
 
 
 
-<div class="container entries col-md-5">
+<div class="container entries center ">
 
 
-
+<section>
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="preview">
@@ -15,10 +15,12 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p>{{ post.content | truncatewords: 30 }}</p>
        
       </li>
     {% endfor %}
   </ul>
+  </section>
 
   
 

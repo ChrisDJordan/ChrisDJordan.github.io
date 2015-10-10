@@ -61,27 +61,35 @@ layout: default
 <h3>Blog</h3>
 <div class=" entries  ">
 <ul class="post-list">
-  {% for post in site.posts %}
+  {% for post in site.posts limit:4 %}
     <li class="preview">
+
       <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
+
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <p> {{  truncatewords:75}} </p>
+
+      <p> </p>
     </li>
   {% endfor %}
 </ul>
 </div>
 <p>
-<a class="btn" href ="#">MORE POSTS</a>
+<a class="btn" href ="blog.html">MORE POSTS</a>
 </p>
 </section>
 
 
 
 <section class="contact">
-<h3>Contact</h3>
+<h3>Contact Me</h3>
 <p>Let’s create awesome experiences together.</p>
+<!-- Change the width and height values to suit you best -->
+<div class="typeform-widget" data-url="https://chrisjordan.typeform.com/to/UdRUzB" data-text="Contact Form" style="width:100%;height:500px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_UdRUzB&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
+
 
 
 
@@ -99,14 +107,4 @@ layout: default
 
 
 </div>
-<!-- <ul class="post-list col-sm-5">
-{% for post in site.posts %}
-<li>
-<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-<h2>
-<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-</h2>
-</li>
-{% endfor %}
-</ul>
--->
+
