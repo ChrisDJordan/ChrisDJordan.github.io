@@ -1,0 +1,159 @@
+---
+layout: default
+---
+
+
+<header>
+  <div class="wrap">
+     <a href="index.html"><img src="/images/logo.svg"></a>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="/index.html" class="underline">HOME</a></li>
+        <li><a href="/about.html">ABOUT</a></li>
+        <li><a href="/portfolio.html">PORTFOLIO</a></li>
+        
+        <li><a href="/blog.html">BLOG</a></li>
+        <li><a href="/contact.html">CONTACT</a></li>
+      </ul>
+      
+    </nav>
+  </div>
+</header>
+
+<div class="hero-background col-md-4">
+  <div class="hero-container">
+    
+    <div class="logo">
+   <!--  <img src="images/logo.svg"> -->
+    <div class="text-float">
+    
+    <h1>CHRIS JORDAN</h1>
+    <h2>WEB / UI DESIGNER</h2>
+    </div>
+    </div>
+
+  <ul>
+    <li><a href="/index.html" class="underline">HOME</a></li>
+    <li><a href="/about.html">ABOUT</a></li>
+    <li><a href="/blog.html">BLOG</a></li>
+    <li><a href="/portfolio.html">PORTFOLIO</a></li>
+    
+    <li><a href="/contact.html">CONTACT</a></li>
+  </ul>
+
+</div>
+</div>
+
+
+
+
+<div class="container">
+
+
+
+  <section class="about-section ">
+    <h3>Web Design isn’t a job,<br />it’s an Adventure.</h3>
+    <p>I’m Chris, a Web / UI Designer in Austin, Texas. This will say something really freaking cool in the future, so just wait and see. I'm not kidding! It will be great! Okay...maybe just okay. I like kittes, I make websites... goodbye.</p>
+    <p>
+      <a class="btn" href ="/about.html">LEARN MORE</a>
+    </p>
+  </section>
+
+
+
+
+
+
+
+  <section class="portfolio">
+    <h3>Recent Work</h3>
+    
+    
+    <div class="hover column">
+      <div class="port-img col-sm-6 ">
+        <figure ><a href="/quest.html"><img src="images/quest2.jpg" /></a></figure>
+        <h4>Quest ATX</h4>
+        <p>RWD,Bootstrap</p>
+      </div>
+      <div class="port-img col-sm-6 ">
+      <figure ><a href="/bouldin.html"><img src="images/bouldin.jpg" /></a></figure>
+      <h4>Bouldin Creek Cafe</h4>
+      <p>RWD,Bootstrap</p>
+    </div>
+    <div class="port-img col-sm-6 ">
+    <figure ><a href="/zengarden.html"><img src="images/zengarden.jpg" /></a></figure>
+    <h4>CSS Zen Garden</h4>
+    <p id="pad-none-big">RWD,Bootstrap</p>
+  </div>
+  <div class="port-img col-sm-6 pad-none">
+  <figure ><a href="/goodreads.html"><img src="images/goodreads-home.png" /></a></figure>
+  <h4>Goodreads</h4>
+  <p id="pad-none">Illustrator</p>
+</div>
+</div>
+<p>
+<a class="btn" href ="#">FULL PORTFOLIO</a>
+</p>
+</section>
+
+
+
+
+
+
+
+
+<section class="blog">
+<h3>Blog</h3>
+<div class=" entries  ">
+<ul class="post-list">
+  {% for post in site.posts limit:4 %}
+    <li class="preview">
+
+      <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <p> </p>
+    </li>
+  {% endfor %}
+</ul>
+</div>
+
+<p>
+<a class="btn" href ="blog.html">MORE POSTS</a>
+</p>
+
+</section>
+
+
+
+<section class="contact">
+<h3>Contact Me</h3>
+<p>Let’s create awesome experiences together.</p>
+<p>
+<a class="btn" href ="contact.html">GET IN TOUCH</a>
+</p>
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
