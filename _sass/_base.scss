@@ -13,6 +13,11 @@ body {
     margin: 0 auto;
 }
 
+img{
+    width:100%;
+    border-radius:4px;
+}
+
 .btn {
     color: #2E3031;
     display: block;
@@ -283,6 +288,34 @@ li {
         padding-bottom: 28px;
     }
 }
+
+
+
+
+
+.content{
+  text-align: center;
+  position: relative;
+  img{
+    margin: auto;
+    text-align: center;
+    width: 420px;
+    transition: all .3s;
+    cursor: pointer;
+    &.img-enlarge{
+      //max-width: 940px;
+      width: 100%;
+    }
+  }
+ 
+}
+
+
+
+
+
+
+
 
 @import "mixin";
 @import "mediaqueries";
