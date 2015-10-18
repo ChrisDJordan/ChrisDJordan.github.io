@@ -29,7 +29,7 @@
     .entries {
         .preview {
             // background:green;
-            width: 48%;
+            width: 47.4444%;
             &:nth-child(odd) {
                 margin-bottom: 28px;
             }
@@ -49,9 +49,9 @@
     //     width: 85%;
     // }
     .port-img {
-        padding-right: 4%;
+        margin-right: 5%;
         &:nth-child(even) {
-            padding-right: 0;
+            margin-right: 0;
         }
     }
 }
@@ -68,8 +68,18 @@
         float: left;
     }
     .container {
-        margin-left: 37%;
-        width: 60%;
+        margin-left: 33.33333%;
+        width: 66.66666667%;
+     
+       overflow:hidden;
+
+
+    }
+
+    section{
+    
+        margin-left:5%;
+        margin-right:5%;
     }
     // .port-img{
     //     padding-right:0;
@@ -118,9 +128,22 @@
         }
     }
     .post-center {
-        max-width: 550px;
+        max-width: none;
         margin: 0;
     }
+
+
+.projects {
+
+        section{
+        ul {
+            width:70%;
+        }
+    }
+}
+                
+       
+        
 }
 
 @media screen and (min-width: 1400px) {
