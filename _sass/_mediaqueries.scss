@@ -26,12 +26,29 @@
         display: inline-block;
         padding: 10px 15px 10px 15px;
     }
+    .entries-home {
+        .preview {
+            // background:green;
+            width: 47.4444%;
+            padding-right: 5%;
+            &:nth-child(odd) {
+                margin-bottom: 28px;
+            }
+            &:nth-child(even) {
+                padding-right: 0;
+            }
+        }
+    }
     .entries {
         .preview {
             // background:green;
             width: 47.4444%;
+            padding-right: 5%;
             &:nth-child(odd) {
                 margin-bottom: 28px;
+            }
+            &:nth-child(even) {
+                padding-right: 0;
             }
         }
     }
@@ -54,6 +71,18 @@
             margin-right: 0;
         }
     }
+
+    /* For Quest portfolio page
+===================================*/
+
+    .quest{
+         .port-img {
+        margin-right: 5%;
+        &:nth-child(even) {
+            margin-right: none;
+        }
+    }
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -70,16 +99,11 @@
     .container {
         margin-left: 33.33333%;
         width: 66.66666667%;
-     
-       overflow:hidden;
-
-
+        overflow: hidden;
     }
-
-    section{
-    
-        margin-left:5%;
-        margin-right:5%;
+    section {
+        width: 90%;
+        margin-left: 5%;
     }
     // .port-img{
     //     padding-right:0;
@@ -127,23 +151,38 @@
             }
         }
     }
+
+
+    .btn {
+        float:left;
+    }
+
+
+    .about-section, .portfolio {
+        overflow:hidden;
+    }
     .post-center {
         max-width: none;
         margin: 0;
     }
-
-
-.projects {
-
-        section{
-        ul {
-            width:70%;
+    .projects {
+        section {
+            ul {
+                width: 70%;
+            }
         }
     }
-}
-                
-       
-        
+    .entries-home {
+        .preview {
+            // background:green;
+             width: 47.5%;
+            
+        }
+    }
+
+    .contact, .blog{
+        width:90%;
+    }
 }
 
 @media screen and (min-width: 1400px) {

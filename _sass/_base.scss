@@ -13,24 +13,22 @@ body {
     margin: 0 auto;
 }
 
-img{
-    width:100%;
-    border-radius:4px;
-
-
+img {
+    width: 100%;
+    border-radius: 4px;
 }
 
-
-
-.projects{
-    img{
-        border:1px solid lightgrey;
-        margin-top:30px;
+.projects {
+    img {
+        border: 1px solid lightgrey;
+        margin-top: 30px;
+        margin-bottom:60px;
     }
-    h3{
-        padding-bottom:15px;
+    h3 {
+        padding-bottom: 15px;
     }
 }
+
 .btn {
     color: #2E3031;
     display: block;
@@ -168,7 +166,6 @@ li {
 
 .portfolio {
     .port-img {
-
         h4 {
             padding-bottom: 5px;
         }
@@ -190,48 +187,39 @@ li {
         padding-top: 50px;
         padding-bottom: 10px;
     }
- 
     section {
         padding: 30px 0 0 0;
-     
-       overflow:hidden;
-        a{
-            padding-left:2px;
-            padding-right:2px;
-            &:last-child{
-                
-                padding-left:5px;
+        float: left;
+        a {
+            padding-left: 2px;
+            padding-right: 2px;
+            &:last-child {
+                padding-left: 5px;
             }
         }
         ul {
-            width:100%;
-                
+            width: 100%;
             li {
                 display: block;
                 float: left;
-                width:50%;
-                font-size:16px;
+                width: 50%;
+                font-size: 16px;
                 list-style-type: circle;
-                padding-bottom:20px;
-                color:#787878;
-            
+                padding-bottom: 20px;
+                color: #787878;
             }
         }
-/* Adds padding to paragrahs when needed
-===================================*/
-        .para-padding{
-            padding-top:30px;
-            
+        /* Adds padding to paragrahs when needed
+        ===================================*/
+        .para-padding {
+            padding-top: 30px;
         }
     }
-
-
-/* Stops li from floating on technologies
-===================================*/
-    .no-float{
-    float:none;
-
-}
+    /* Stops li from floating on technologies
+    ===================================*/
+    .no-float {
+        float: none;
+    }
 }
 
 /* Blog Section
@@ -240,6 +228,49 @@ li {
     float: left;
     border-top: 2px solid #efefef;
     width: 100%;
+}
+
+.entries-home {
+    // background:green;
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    .preview {
+        // background:green;
+        width: 100%;
+        display: block;
+        float: left;
+        clear: right;
+        overflow: hidden;
+        margin: 0 0 60px 0;
+
+        &:last-child {
+            margin-bottom: 28px;
+        }
+        &:nth-child(even) {
+            margin-right: 0%;
+          
+         
+        }
+       
+    }
+
+    h2 a {
+        display: block;
+        // font-weight: bold;
+        // text-transform: uppercase;
+        margin-bottom: 5px;
+    }
+    h2 a:hover {
+        color: #f9d76d;
+    }
+    .post-meta {
+        line-height: 1.6;
+    }
+    p {
+        color: black;
+        margin-bottom: 0px;
+    }
 }
 
 .entries {
