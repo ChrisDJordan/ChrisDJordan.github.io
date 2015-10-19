@@ -21,9 +21,11 @@ img {
 .projects {
     img {
         border: 1px solid lightgrey;
-        margin-top: 30px;
+        margin-top: 0px;
         margin-bottom:60px;
     }
+
+
     h3 {
         padding-bottom: 15px;
     }
@@ -113,7 +115,7 @@ li {
     display: none;
 }
 
-/* About Section
+/* About section on home
 ===================================*/
 .about-section {
     h3 {
@@ -125,6 +127,15 @@ li {
             padding-bottom: 0;
         }
     }
+}
+
+/* About page
+===================================*/
+.about-page{
+    p{
+        padding-left:5%;
+    }
+
 }
 
 /* Portfolio Section
@@ -209,17 +220,23 @@ li {
                 color: #787878;
             }
         }
-        /* Adds padding to paragrahs when needed
+        /* Adds padding 
         ===================================*/
-        .para-padding {
+        .padding {
             padding-top: 30px;
         }
+    }
+
+    .none{
+        padding-top:0;
     }
     /* Stops li from floating on technologies
     ===================================*/
     .no-float {
         float: none;
     }
+
+
 }
 
 /* Blog Section

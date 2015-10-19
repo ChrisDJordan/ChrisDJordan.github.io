@@ -83,6 +83,12 @@
         }
     }
     }
+
+     /* Adds padding 
+        ===================================*/
+        .padding {
+            padding-top: 30px;
+        }
 }
 
 @media screen and (min-width: 992px) {
@@ -115,9 +121,14 @@
         position: fixed;
     }
     .hero-container {
+         padding-right: 10%;
+         
+
+
         h1, h2, li {
             text-align: right;
-            padding-right: 10%;
+
+           
         }
         .logo {
             padding-top: 80px;
@@ -187,6 +198,8 @@
 
 @media screen and (min-width: 1400px) {
     .hero-container {
+
+
         .logo {
             h1 {
                 position: relative;
