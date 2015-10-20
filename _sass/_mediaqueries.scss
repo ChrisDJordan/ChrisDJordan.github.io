@@ -102,6 +102,18 @@
     }
 
 }
+
+
+ /* Fixes Doc Browns imgs on large
+        ===================================*/
+.doc-process{
+    .col-sm-6{
+        &:nth-child(even){
+     
+            padding-top:30px;
+        }
+    }
+}
 }
 
 @media screen and (min-width: 992px) {
