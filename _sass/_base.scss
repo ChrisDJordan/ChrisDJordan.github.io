@@ -52,6 +52,7 @@ img {
 
 section {
     padding: 80px 0 80px 0;
+    overflow:hidden;
 }
 
 /* Header Section
@@ -132,8 +133,14 @@ li {
 /* About page
 ===================================*/
 .about-page{
+    h2 {
+        font-size: 42px;
+       
+        padding-bottom: 10px;
+    }
     p{
-        padding-left:5%;
+        padding-top:30px;
+
     }
 
 }
@@ -196,7 +203,7 @@ li {
     h2 {
         font-size: 42px;
         padding-top: 50px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
     section {
         padding: 30px 0 0 0;
@@ -363,6 +370,10 @@ li {
     width: 100%;
     p {
         padding-bottom: 28px;
+        &:last-of-type{
+          
+                padding-bottom: 0;
+        }
     }
 }
 

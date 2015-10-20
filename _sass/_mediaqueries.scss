@@ -70,6 +70,8 @@
         &:nth-child(even) {
             margin-right: 0;
         }
+
+
     }
 
     /* For Quest portfolio page
@@ -89,6 +91,17 @@
         .padding {
             padding-top: 30px;
         }
+
+            .about-page{
+  
+    p{
+        margin-left:10%;
+        padding-top:0;
+             padding-bottom:30px;
+       
+    }
+
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -194,6 +207,8 @@
     .contact, .blog{
         width:90%;
     }
+
+
 }
 
 @media screen and (min-width: 1400px) {
