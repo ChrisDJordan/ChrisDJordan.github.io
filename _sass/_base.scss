@@ -211,7 +211,7 @@ li {
         padding-bottom: 15px;
     }
     section {
-        padding: 30px 0 0 0;
+        padding: 60px 0 0 0;
         float: left;
           overflow: visible;
 
@@ -224,6 +224,7 @@ li {
         }
         ul {
             width: 100%;
+            overflow:hidden;
             li {
                 display: block;
                 float: left;
@@ -232,6 +233,10 @@ li {
                 list-style-type: circle;
                 padding-bottom: 20px;
                 color: #787878;
+                // background:red;
+
+
+
             }
         }
         /* Adds padding 
