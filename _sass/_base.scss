@@ -135,7 +135,7 @@ li {
 .about-page {
     h2 {
         font-size: 42px;
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
     p {
         padding-top: 30px;
@@ -206,6 +206,9 @@ li {
         padding: 60px 0 0 0;
         float: left;
         overflow: visible;
+        &:first-child {
+            padding: 30px 0 0 0;
+        }
         a {
             padding-left: 2px;
             padding-right: 2px;
@@ -225,17 +228,20 @@ li {
                 padding-bottom: 20px;
                 color: #787878;
                 // background:red;
-                &:last-child{
-                      color: green;
-                      padding-bottom:0;
-
+                &:last-child {
+                    padding-bottom: 0;
                 }
-
                 &:nth-last-child(2) {
-                    color: green;
-                    padding-bottom:0;
+                    padding-bottom: 0;
                 }
             }
+        }
+          /* Fixes Doc Browns li 
+        ===================================*/
+
+        .li-fix{
+
+            margin-bottom:20px;
         }
         /* Adds padding 
         ===================================*/
