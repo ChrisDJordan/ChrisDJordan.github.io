@@ -42,6 +42,7 @@ img {
     border-radius: 4px;
     overflow: hidden;
     clear: both;
+    float:left;
 }
 
 .btn:hover {
@@ -52,6 +53,9 @@ img {
 
 section {
     padding: 80px 0 80px 0;
+    clear:both;
+    overflow:hidden;
+
     
 }
 
@@ -200,6 +204,7 @@ li {
 ===================================*/
 
 .projects {
+
     h2 {
         font-size: 42px;
         padding-top: 50px;
@@ -208,6 +213,8 @@ li {
     section {
         padding: 30px 0 0 0;
         float: left;
+          overflow: visible;
+
         a {
             padding-left: 2px;
             padding-right: 2px;
