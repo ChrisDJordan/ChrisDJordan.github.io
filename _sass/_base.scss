@@ -22,10 +22,8 @@ img {
     img {
         border: 1px solid lightgrey;
         margin-top: 0px;
-        margin-bottom:60px;
+        margin-bottom: 60px;
     }
-
-
     h3 {
         padding-bottom: 15px;
     }
@@ -42,7 +40,7 @@ img {
     border-radius: 4px;
     overflow: hidden;
     clear: both;
-    float:left;
+    float: left;
 }
 
 .btn:hover {
@@ -53,10 +51,8 @@ img {
 
 section {
     padding: 80px 0 80px 0;
-    clear:both;
-    overflow:hidden;
-
-    
+    clear: both;
+    overflow: hidden;
 }
 
 /* Header Section
@@ -136,17 +132,14 @@ li {
 
 /* About page
 ===================================*/
-.about-page{
+.about-page {
     h2 {
         font-size: 42px;
-       
         padding-bottom: 10px;
     }
-    p{
-        padding-top:30px;
-
+    p {
+        padding-top: 30px;
     }
-
 }
 
 /* Portfolio Section
@@ -204,7 +197,6 @@ li {
 ===================================*/
 
 .projects {
-
     h2 {
         font-size: 42px;
         padding-top: 50px;
@@ -213,8 +205,7 @@ li {
     section {
         padding: 60px 0 0 0;
         float: left;
-          overflow: visible;
-
+        overflow: visible;
         a {
             padding-left: 2px;
             padding-right: 2px;
@@ -224,7 +215,7 @@ li {
         }
         ul {
             width: 100%;
-            overflow:hidden;
+            overflow: hidden;
             li {
                 display: block;
                 float: left;
@@ -234,9 +225,16 @@ li {
                 padding-bottom: 20px;
                 color: #787878;
                 // background:red;
+                &:last-child{
+                      color: green;
+                      padding-bottom:0;
 
+                }
 
-
+                &:nth-last-child(2) {
+                    color: green;
+                    padding-bottom:0;
+                }
             }
         }
         /* Adds padding 
@@ -245,27 +243,14 @@ li {
             padding-top: 30px;
         }
     }
-
-    .none{
-        padding-top:0;
+    .none {
+        padding-top: 0;
     }
     /* Stops li from floating on technologies used
     ===================================*/
     .no-float {
         float: none;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /* Blog Section
@@ -289,18 +274,13 @@ li {
         clear: right;
         overflow: hidden;
         margin: 0 0 60px 0;
-
         &:last-child {
             margin-bottom: 28px;
         }
         &:nth-child(even) {
             margin-right: 0%;
-          
-         
         }
-       
     }
-
     h2 a {
         display: block;
         // font-weight: bold;
@@ -392,9 +372,8 @@ li {
     width: 100%;
     p {
         padding-bottom: 28px;
-        &:last-of-type{
-          
-                padding-bottom: 0;
+        &:last-of-type {
+            padding-bottom: 0;
         }
     }
 }
