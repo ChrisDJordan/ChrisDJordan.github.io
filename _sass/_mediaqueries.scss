@@ -1,14 +1,12 @@
 @media screen and (min-width: 480px) {
-    header {
-        // background: red;
-   
-    }
     .hero-container {
         .logo {
             h1 {
+                font-size: 2.75rem;
                 font-size: 44px;
             }
             h2 {
+                font-size: 1.875rem;
                 font-size: 30px;
             }
         }
@@ -28,7 +26,6 @@
     }
     .entries-home {
         .preview {
-            // background:green;
             width: 47.4444%;
             padding-right: 5%;
             &:nth-child(odd) {
@@ -41,7 +38,6 @@
     }
     .entries {
         .preview {
-            // background:green;
             width: 47.4444%;
             padding-right: 5%;
             &:nth-child(odd) {
@@ -58,67 +54,48 @@
 }
 
 @media screen and (min-width: 768px) {
-    header {
-        // background: green;
-   
-    }
-    // .container {
-    //     width: 85%;
-    // }
+    header {}
     .port-img {
         margin-right: 5%;
         &:nth-child(even) {
             margin-right: 0;
         }
-
-
     }
-
     /* For Quest portfolio page
 ===================================*/
-
-    .quest{
-         .port-img {
-        margin-right: 5%;
-        &:nth-child(even) {
-            margin-right: none;
+    .quest {
+        .port-img {
+            margin-right: 5%;
+            &:nth-child(even) {
+                margin-right: none;
+            }
         }
     }
+    /* Adds padding 
+       ===================================*/
+    .padding {
+        padding-top: 30px;
     }
-
-     /* Adds padding 
-        ===================================*/
-        .padding {
-            padding-top: 30px;
-        }
-
-            .about-page{
-  
-    p{
-        margin-left:10%;
-        padding-top:0;
-             padding-bottom:30px;
-       
-    }
-
-}
-
-
- /* Fixes Doc Browns imgs on large
-        ===================================*/
-.doc-process{
-    .col-sm-6{
-        &:nth-child(even){
-     
-            padding-top:30px;
+    .about-page {
+        p {
+            margin-left: 10%;
+            padding-top: 0;
+            padding-bottom: 30px;
         }
     }
-}
+    /* Fixes Doc Browns imgs on large
+           ===================================*/
+    .doc-process {
+        .col-sm-6 {
+            &:nth-child(even) {
+                padding-top: 30px;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 992px) {
     header {
-        // background: purple;
         display: none;
     }
     .hero-background {
@@ -136,9 +113,6 @@
         width: 90%;
         margin-left: 5%;
     }
-    // .port-img{
-    //     padding-right:0;
-    // }
     header {
         display: none;
         background: #2E3032;
@@ -146,14 +120,9 @@
         position: fixed;
     }
     .hero-container {
-         padding-right: 10%;
-         
-
-
+        padding-right: 10%;
         h1, h2, li {
             text-align: right;
-
-           
         }
         .logo {
             padding-top: 80px;
@@ -172,6 +141,7 @@
                 }
             }
             h2 {
+                font-size: 1.5rem;
                 font-size: 24px;
                 padding-bottom: 50px;
                 text-align: right;
@@ -187,15 +157,11 @@
             }
         }
     }
-
-
     .btn {
-        float:left;
+        float: left;
     }
-
-
     .about-section, .portfolio {
-        overflow:hidden;
+        overflow: hidden;
     }
     .post-center {
         max-width: none;
@@ -210,23 +176,16 @@
     }
     .entries-home {
         .preview {
-            // background:green;
-             width: 47.5%;
-            
+            width: 47.5%;
         }
     }
-
-    .contact, .blog{
-        width:90%;
+    .contact, .blog {
+        width: 90%;
     }
-
-
 }
 
 @media screen and (min-width: 1400px) {
     .hero-container {
-
-
         .logo {
             h1 {
                 position: relative;
@@ -244,7 +203,7 @@
                 }
             }
             h2 {
-                font-size: 2.250rem;
+                font-size: 2.25rem;
                 font-size: 36px;
                 text-align: right;
             }

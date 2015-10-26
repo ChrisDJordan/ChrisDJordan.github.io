@@ -8,7 +8,6 @@ $orange: #cc6806;
 
 * {
     text-decoration: none;
-
 }
 
 a {
@@ -16,12 +15,12 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 1.3rem;
-    font-size:20px;
+    font-size: 20px;
     color: #2E3031;
     text-transform: uppercase;
 }
 
-p,li {
+p, li {
     color: #787878;
     font-family: "droid-sans",sans-serif;
     font-style: normal;
@@ -30,13 +29,12 @@ p,li {
     max-width: 550px;
 }
 
-p{
-     
-}
+p {}
+
 h1, h2, h3, h4 {
     font-family: "source-sans-pro",sans-serif;
     font-style: normal;
-        color: #2E3031;
+    color: #2E3031;
 }
 
 h2 {
@@ -50,11 +48,7 @@ h3 {
     font-size: 32px;
     padding-bottom: 20px;
     line-height: 1.1;
-   
 }
-
-        
-
 
 h4 {
     font-size: 1.5rem;

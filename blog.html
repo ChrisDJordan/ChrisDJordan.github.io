@@ -1,78 +1,54 @@
 ---
 layout: default
 ---
-
 <header>
   <div class="wrap">
-     <a href="/index.html"><img src="/images/logo.svg"></a>
+    <a href="/index.html"><img src="/images/logo.svg"></a>
     <nav class="nav-collapse">
       <ul>
         <li><a href="/index.html" >HOME</a></li>
         <li><a href="/about.html">ABOUT</a></li>
         <li><a href="/index.html">PORTFOLIO</a></li>
-        
         <li><a href="/blog.html" class="underline">BLOG</a></li>
         <li><a href="contact.html">CONTACT</a></li>
       </ul>
-      
     </nav>
   </div>
 </header>
-
 <div class="hero-background col-md-4">
   <div class="hero-container">
     
     <div class="logo">
-   <!--  <img src="images/logo.svg"> -->
-    <div class="text-float">
-    
-    <h1>CHRIS JORDAN</h1>
-    <h2>WEB / UI DESIGNER</h2>
+      <div class="text-float">
+        <h1>CHRIS JORDAN</h1>
+        <h2>WEB / UI DESIGNER</h2>
+      </div>
     </div>
-    </div>
-
-  <ul>
-    <li><a href="/index.html" >HOME</a></li>
-    <li><a href="/about.html">ABOUT</a></li>
-    <li><a href="/blog.html" class="underline">BLOG</a></li>
-    <li><a href="/portfolio.html">PORTFOLIO</a></li>
-    
-    <li><a href="/contact.html" >CONTACT</a></li>
-  </ul>
-
+    <ul>
+      <li><a href="/index.html" >HOME</a></li>
+      <li><a href="/about.html">ABOUT</a></li>
+      <li><a href="/blog.html" class="underline">BLOG</a></li>
+      <li><a href="/portfolio.html">PORTFOLIO</a></li>
+      <li><a href="/contact.html" >CONTACT</a></li>
+    </ul>
+  </div>
 </div>
-</div>
-
-
-
-
 <div class="container entries blog-center ">
-
-
-<section>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="preview">
-      <div class="hey">
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <p>{{ post.content | truncatewords: 30 }}</p>
-        </div>
-       
-      </li>
-    {% endfor %}
-  </ul>
+  <section>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li class="preview">
+          <div class="hey">
+            <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <p>{{ post.content | truncatewords: 30 }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
   </section>
-
   
-
-
-      
+  
 </div>
-
-
-
-
-
