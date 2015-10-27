@@ -1,0 +1,86 @@
+/* Projects Pages
+===================================*/
+.projects {
+
+
+
+    img {
+        border: 1px solid lightgrey;
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+    h3 {
+        padding-bottom: 15px;
+
+    }
+    h2 {
+        font-size: 2.625rem;
+        font-size: 42px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    section {
+        padding: 60px 0 0 0;
+        float: left;
+        overflow: visible;
+        &:first-child {
+            padding: 30px 0 0 0;
+        }
+        a {
+            padding-left: 2px;
+            padding-right: 2px;
+            &:last-child {
+                padding-left: 5px;
+            }
+        }
+        ul {
+            width: 100%;
+            overflow: hidden;
+            li {
+                display: block;
+                float: left;
+                width: 50%;
+                font-size: 16px;
+                list-style-type: circle;
+                padding-bottom: 20px;
+                color: #787878;
+                // background:red;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                &:nth-last-child(2) {
+                    padding-bottom: 0;
+                }
+            }
+        }
+        /* Fixes Doc Browns li 
+        ===================================*/
+        .li-fix {
+            margin-bottom: 20px;
+        }
+        /* Adds padding 
+        ===================================*/
+        .padding {
+            padding-top: 30px;
+        }
+    }
+    .none {
+        padding-top: 0;
+    }
+    /* Stops li from floating on technologies used
+    ===================================*/
+    .no-float {
+        float: none;
+    }
+
+      /* Adds padding to the bottom of struggling musician's page
+    ===================================*/
+
+        .struggling-page{
+        section{
+    &:last-of-type{
+        padding-bottom:60px;
+    }
+}
+}
+}

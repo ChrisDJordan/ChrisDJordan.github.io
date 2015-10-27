@@ -1,0 +1,51 @@
+/* Multiple blog post page
+===================================*/
+.entries {
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    .preview {
+        width: 100%;
+        display: block;
+        float: left;
+        clear: right;
+        overflow: hidden;
+        margin: 0 0 60px 0;
+        &:last-child {
+            margin-bottom: 28px;
+        }
+        &:nth-child(even) {
+            margin-right: 0%;
+        }
+    }
+    h2 a {
+        display: block;
+        margin-bottom: 5px;
+    }
+    h2 a:hover {
+        color: #f9d76d;
+    }
+    .post-meta {
+        line-height: 1.6;
+    }
+    p {
+        color: black;
+        margin-bottom: 0px;
+    }
+}
+
+/* Single Blog Post
+===================================*/
+.post-center {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.meta-style {
+    font-size: 1.125rem;
+    font-size: 18px;
+}
+
+.post-content {
+    padding-top: 10px;
+}
