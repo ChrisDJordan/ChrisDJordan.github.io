@@ -1,0 +1,33 @@
+/* Portfolio page bottom padding fix on small
+    ===================================*/
+
+.portfolio-page {
+    border: none;
+    .port-img {
+        &:last-child {
+            p {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Portfolio page bottom padding fix on large
+    ===================================*/
+    .portfolio-page {
+        border: none;
+        .port-img {
+            &:nth-last-child(2) {
+                p {
+                    padding-bottom: 0;
+                }
+            }
+            &:last-child {
+                p {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}

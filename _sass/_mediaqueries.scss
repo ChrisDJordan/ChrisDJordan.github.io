@@ -48,13 +48,25 @@
             }
         }
     }
-    #pad-none-big {
-        padding-bottom: 28px;
-    }
 }
 
 @media screen and (min-width: 768px) {
-    header {}
+    /* Portfolio section bottom padding fix on large
+===================================*/
+    .portfolio {
+        .port-img {
+            &:nth-last-child(2) {
+                p {
+                    padding-bottom: 28px;
+                }
+            }
+            &:last-child {
+                p {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
     .port-img {
         margin-right: 5%;
         &:nth-child(even) {
@@ -69,6 +81,9 @@
             &:nth-child(even) {
                 margin-right: none;
             }
+        }
+        #pad-none-big {
+            padding-bottom: 28px;
         }
     }
     /* Adds padding 
@@ -128,6 +143,7 @@
             padding-top: 80px;
             h1 {
                 position: relative;
+                font-size: 2.125rem;
                 font-size: 34px;
                 text-align: right;
                 &:before {
