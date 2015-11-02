@@ -1,9 +1,6 @@
 /* Projects Pages
 ===================================*/
 .projects {
-
-
-
     img {
         border: 1px solid lightgrey;
         margin-top: 0px;
@@ -11,7 +8,6 @@
     }
     h3 {
         padding-bottom: 15px;
-
     }
     h2 {
         font-size: 2.625rem;
@@ -55,7 +51,6 @@
         }
         /* Fixes Doc Browns li 
         ===================================*/
-        
         /* Adds padding 
         ===================================*/
         .padding {
@@ -70,15 +65,13 @@
     .no-float {
         float: none;
     }
-
-      /* Adds padding to the bottom of struggling musician's page
-    ===================================*/
-
-        .struggling-page{
-        section{
-    &:last-of-type{
-        padding-bottom:60px;
+  /* Adds padding to the bottom of struggling musician's page
+===================================*/
+    .struggling-page {
+        section {
+            &:last-of-type {
+                padding-bottom: 60px;
+            }
+        }
     }
-}
-}
 }

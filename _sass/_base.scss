@@ -240,6 +240,44 @@ li {
     }
 }
 
+footer {
+    // background: url(/images/road-footer.jpg);
+    // background-size:cover;
+    background: #2E3031;
+    padding: 50px 0 50px 0;
+    width: 100%;
+    float: left;
+    text-align:center;
+    img {
+        max-width: 30px;
+    }
+    ul {
+        margin: 0 auto 10px auto;
+        overflow: hidden;
+        max-width: 165px;
+          text-align:center;
+
+        li {
+            display: block;
+            float: left;
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    p{
+
+        color:white;
+        max-width:200px;
+        margin:0 auto;
+        
+    }
+    a{
+        color:#f9d76d;
+    }
+}
+
 @import "about-page";
 @import "portfolio-page";
 @import "projects-page";
