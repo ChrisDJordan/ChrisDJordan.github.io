@@ -5,36 +5,39 @@
         font-size: 2rem;
         font-size: 32px;
         padding-bottom: 15px;
-        max-width:425px;
-        line-height:1.2;
+        max-width: 500px;
+        line-height: 1.2;
     }
     p {
         padding-top: 30px;
     }
-
-    section{
+    section {
         padding: 60px 0 0 0;
-        
+        &:first-of-type{
+            padding-top:75px;
+        }
+        &:last-of-type {
+            padding-bottom: 60px;
+        }
     }
-        ul {
-            width: 100%;
-            overflow: hidden;
-            li {
-                display: block;
-                float: left;
-                width: 50%;
-                font-size: 16px;
-                list-style-type: circle;
-                padding-bottom: 20px;
-                color: #787878;
-                // background:red;
-                &:last-child {
-                    padding-bottom: 0;
-                }
-                &:nth-last-child(2) {
-                    padding-bottom: 0;
-                }
+    ul {
+        width: 100%;
+        overflow: hidden;
+        li {
+            display: block;
+            float: left;
+            width: 50%;
+            font-size: 16px;
+            list-style-type: circle;
+            padding-bottom: 20px;
+            color: #787878;
+            // background:red;
+            &:last-child {
+                padding-bottom: 0;
+            }
+            &:nth-last-child(2) {
+                padding-bottom: 0;
             }
         }
-        
+    }
 }
