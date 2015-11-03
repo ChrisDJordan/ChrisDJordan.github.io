@@ -3,6 +3,7 @@ layout: post
 title:  "Critiques in the Design Process"
 date:   2015-07-10 09:48:42
 categories: jekyll update
+permalink: Posts
 ---
 
 This week we worked on giving and receiving critiques, and I learned a lot more than I thought. Being a Designer isn’t all about making things look pretty, it’s about using content with design to guide users through experiences that are aesthetically pleasing. As we critiqued each other, we worked hard at removing the word “I” from our vocabulary when giving suggestions (It’s not as easy as it sounds!). We also looked at every design from a user’s perspective to figure out what was truly needed. We found that some design decisions were confusing, and only getting in the way of the users next steps.
