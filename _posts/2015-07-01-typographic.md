@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Getting typographic"
+title:  "Getting Typographic"
 date:   2015-06-27 09:48:42
 categories: jekyll update
-permalink: Posts
+permalink: Getting Typographic
 ---
 
 
