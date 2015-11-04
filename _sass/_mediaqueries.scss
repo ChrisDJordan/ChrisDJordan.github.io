@@ -11,12 +11,9 @@
             }
         }
     }
-
-
-
-    h3{
-        font-size:2rem;
-        font-size:32px;
+    h3 {
+        font-size: 2rem;
+        font-size: 32px;
     }
     .about-section {
         h2 {
@@ -55,13 +52,11 @@
             }
         }
     }
-
-    footer{
-            p{
-                max-width:400px;
-                
-            }
+    footer {
+        p {
+            max-width: 400px;
         }
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -86,8 +81,6 @@
         &:nth-child(even) {
             margin-right: 0;
         }
-
-
     }
     /* For Quest portfolio page
 ===================================*/
@@ -112,7 +105,6 @@
             // margin-left: 10%;
        
         }
-
     }
     /* Fixes Doc Browns imgs on large
            ===================================*/
@@ -129,7 +121,6 @@
             font-size: 42px;
         }
     }
-      
 }
 
 @media screen and (min-width: 992px) {
@@ -189,11 +180,10 @@
         .icons {
             float: right;
             overflow: hidden;
-            margin:20px 0 30px 0;
-
+            margin: 20px 0 30px 0;
             li {
                 max-width: 25px;
-                max-height:25px;
+                max-height: 25px;
                 float: left;
                 margin-right: 15px;
                 &:last-child {
@@ -204,7 +194,7 @@
         ul {
             overflow: hidden;
             float: right;
-            clear:both;
+            clear: both;
             li {
                 display: block;
                 padding-bottom: 15px;
@@ -228,9 +218,7 @@
     }
     .projects {
         section {
-
             ul {
-
                 width: 80%;
             }
         }
@@ -243,30 +231,19 @@
     .contact, .blog {
         width: 90%;
     }
-
-     .about-page {
-        p {
-            // margin-left: 10%;
-       
-        }
-        section{
-            ul{
-                li{
-                width:40%;
-            }
+    .about-page, .projects {
+        section {
+            ul {
+                max-width: 500px;
             }
         }
-    } 
-    
+    }
     footer {
         display: none;
     }
-            .entries {
-   
-    padding-top:2px;
-}
-
-
+    .entries {
+        padding-top: 2px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -294,8 +271,7 @@
             }
         }
     }
-        .entries {
-   
-    padding-top:5px;
-}
+    .entries {
+        padding-top: 5px;
+    }
 }
