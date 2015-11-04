@@ -12,5 +12,4 @@ What may sound like a good idea in your head, isn’t always the best solution. 
 I found that we tend to be inconsistent, fail to use enough white space, and
 lack readability & legibility in our designs.
 
-
 There is so much that goes into a website that being sporadic isn’t going to draw users in, and definitely isn’t going to meet deadlines. As Designers we wanna take chances, break the mold, and push the industry forward. Finding the perfect balance between being innovative and using key principles are the foundation to producing great work.   
