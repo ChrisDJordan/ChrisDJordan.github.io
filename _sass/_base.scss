@@ -76,23 +76,15 @@ header {
 /* Hero-img Section
 ===================================*/
 .hero-background {
-    background-size: cover;
-    background-image: url(https://static.pexels.com/photos/28026/pexels-photo-28026.jpg);
-    background-attachment: scroll, fixed;
+    background-size: auto, cover;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/images/black-and-white-road.jpg);
+    // background-image: url(https://static.pexels.com/photos/28026/pexels-photo-28026.jpg);
+    // background-attachment: scroll, fixed;
     width: 100%;
     min-height: 300px;
-    background-position: 50%;
+    background-position: bottom;
 }
 
-.overlay {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.2);
-    height:365px;
-}
 
 .hero-container {
     position:relative;
